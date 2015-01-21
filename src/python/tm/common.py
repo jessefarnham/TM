@@ -1,7 +1,8 @@
 import enum
 
+CONF_DIR = '../../conf'
 
-class Terrain(enum):
+class Terrain(enum.Enum):
     PLAINS = 0
     SWAMP = 1
     LAKE = 2

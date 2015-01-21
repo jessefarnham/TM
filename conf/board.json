@@ -1,5 +1,50 @@
 {
   "mainBoard": {
-
+    "spaces": [
+      {"id": 0,
+       "terrain": "PLAINS",
+       "neighbors": {"E": 1, "SE": 4}
+      },
+      {"id": 1,
+        "terrain": "MOUNTAINS",
+        "neighbors": {"W": 0, "E": 2, "SE": 5, "SW": 4}
+      },
+      {"id": 2,
+        "terrain": "FOREST",
+        "neighbors": {"W": 1, "E": 3, "SE": 6, "SW": 5}
+      },
+      {"id": 3,
+        "terrain": "LAKE",
+        "neighbors": {"W": 2, "SW": 6}
+      },
+      {"id": 4,
+        "terrain": "DESERT",
+        "neighbors": {"NW": 0, "NE": 1, "E": 5, "SE": 7}
+      },
+      {"id": 5,
+        "terrain": "RIVER",
+        "neighbors": {"W": 4, "NW": 1, "NE": 2, "E": 6, "SE": 8, "SW": 7}
+      },
+      {"id": 6,
+        "terrain": "RIVER",
+        "neighbors": {"W": 5, "NW": 2, "NE": 3, "SW": 8}
+      },
+      {"id": 7,
+        "terrain": "RIVER",
+        "neighbors": {"NW": 4, "NE": 5, "E": 8, "SE": 10, "SW": 9}
+      },
+      {"id": 8,
+        "terrain": "SWAMP",
+        "neighbors": {"W": 7, "NW": 5, "NE": 6, "SW": 10}
+      },
+      {"id": 9,
+        "terrain": "FOREST",
+        "neighbors": {"NE": 7, "E": 10}
+      },
+      {"id": 10,
+        "terrain": "LAKE",
+        "neighbors": {"W": 9, "NW": 7, "NE": 8}
+      }
+    ]
   }
 }
