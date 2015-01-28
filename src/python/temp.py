@@ -1,2 +1,5 @@
 import tm.board as board
-board = board.MainBoard()
+
+main_board = board.MainBoard()
+cult_board = board.CultBoard()
+pass
